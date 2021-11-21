@@ -1,0 +1,119 @@
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    background-color: hsl(233, 47%, 7%);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 1rem;
+    max-width: 1140px;
+    margin: 5%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 85%;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 3.4rem;
+    margin-bottom: 2.8rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.6px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.status-content {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start
+}
+
+.status-num {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.status-title {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca', 'sans-serif';
+    margin-top: 0.8rem;
+
+}
+
+.card-img {
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 1rem 1rem 0;
+    position: relative;
+}
+
+img {
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.5px;
+}
+
+.img-mobile {
+    display:none;
+}
+
+.pink {
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
